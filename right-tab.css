@@ -1,0 +1,39 @@
+.right-tab{
+    width: 5%;
+    display: flex;
+    background: #F2F2F2;
+    /* border-left: 1px solid gray; */
+    flex-direction: column;
+}
+.person-icon{
+    width: 30px;
+    height: 30px;
+    background: #0097A7;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    border-radius: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 12px;
+}
+.icons-holder{
+    width: 100%;
+    height: 250px;
+    /* border: 1px solid gray; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.icon-imgs{
+    width: 20px;
+}
+.plus-icn{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
