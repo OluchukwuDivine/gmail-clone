@@ -1,0 +1,110 @@
+.left-tab{
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    background: #F2F2F2;
+}
+.logo-img{
+    width: 55%;
+    height: 55px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 30px;
+}
+.logo-img i{
+    font-size: 22px;
+    margin-right: 15px;
+}
+.logo-img img{
+    width: 100px;
+}
+.compose-sec{
+    width: 90%;
+    height: 60px;
+    background: #F2F2F2;
+    margin-top: 15px;
+    padding-left: 10px;
+}
+.compose-btn{
+    background: #C2E7FF;
+    width: 65%;
+    height: 95%;
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.compose-btn p{
+    font-weight: 500;
+}
+.left-lists{
+    width: 100%;
+    height: min-content;
+    /* border: 1px solid black; */
+    padding-top: 15px;
+    display: flex;
+    flex-direction: column;
+}
+.list-items{
+    width: 85%;
+    height: 35px;
+    border-radius: 0px 20px 20px 0px;
+    display: flex;
+    align-items: center;
+    padding-left: 15px;
+    justify-content: space-between;
+}
+/* trying to edit */
+
+.list-items i{
+    width: 10%;
+    margin-left: 15px;
+}
+/* trying ends above here */
+.bg-static{
+    background: #D3E3FD;
+    font-weight: bold;
+}
+/* disable bg-static once done --above */
+.list-items:hover{
+    background: #D3E3FD;
+    font-weight: bold;
+}
+/* edited below here */
+.inbox-msg{
+    display: flex;
+    justify-content: space-between;
+    width: 50%;
+    /* font-weight: 600; */
+    font-size: 14px;
+}
+.inbox-msg p{
+
+}
+/* edited above here */
+.number{
+    font-size: 12px;
+    font-weight: bold;
+    /* border: 1px solid gray; */
+    width: 12%;
+}
+.no-number{
+    color: #F2F2F2;
+}
+.labels{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+    margin-top: 25px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.labels p{
+    font-weight: 600;
+}
+.labels:hover{
+    background: #e4e2e2;
+}
