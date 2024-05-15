@@ -190,3 +190,11 @@ svg{
     background: #0B57D0;
     border-radius: 20px 20px 0px 0px;
 } */
+.promotion-mail:hover{
+    color: #1A73E8;
+    border-bottom: 2px solid #1A73E8;
+}
+.social-mail:hover{
+    color: #1A73E8;
+    border-bottom: 2px solid #1A73E8;
+}
