@@ -6,7 +6,7 @@ let toggle = true;
 
 toggleDisplay.addEventListener("click", () => {
   if (toggle == true) {
-    leftOverflow.style.height = "400px";
+    leftOverflow.style.height = "320px";
     leftOverflow.style.overflowY = "scroll";
     toggle = false;
     changeInboxMsg.textContent="Less";
