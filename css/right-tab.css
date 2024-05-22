@@ -4,6 +4,7 @@
     background: #F2F2F2;
     /* border-left: 1px solid gray; */
     flex-direction: column;
+    height: 100%;
 }
 .person-icon{
     width: 30px;

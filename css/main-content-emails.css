@@ -1,6 +1,6 @@
 .email-content{
     width: 100%;
-    height: 83%;
+    height: 75%;
     margin-top: 50px;
     overflow-y: scroll;
     /* border: 1px solid gray; */
@@ -11,6 +11,12 @@
     background: #eaeff5;
     display: flex;
     align-items: center;
+    border-top: 1px solid rgb(224, 224, 224);
+}
+.emails:hover{
+    cursor: pointer;
+    border: 1px solid rgb(224, 224, 224);
+    background: #dfe5ec;
 }
 .flex{
     display: flex;

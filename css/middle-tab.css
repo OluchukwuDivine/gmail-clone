@@ -12,6 +12,8 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
+    margin-bottom: 10px;
+    margin-top: 10px;
 }
 .search-icons{
     display: flex;
@@ -110,17 +112,16 @@ svg{
 }
 .primary-mail{
     width: 250px;
-    border-bottom: 2px solid #0B57D0;
     padding: 0px 15px 0px 15px;
     display: flex;
     align-items: center;
     color: #0B57D0;
+    background: #F2F2F2;
 }
-/* .primary-mail:hover{
+.primary-mail:hover{
     border-bottom: 2px solid #0B57D0;
     color: #0B57D0;
-    background: #F2F2F2;
-} */
+} 
 .primary-mail p{
     font-size: 13px;
     margin-left: 15px;
@@ -193,8 +194,10 @@ svg{
 .promotion-mail:hover{
     color: #1A73E8;
     border-bottom: 2px solid #1A73E8;
+    cursor: pointer;
 }
 .social-mail:hover{
     color: #1A73E8;
     border-bottom: 2px solid #1A73E8;
+    cursor: pointer;
 }

@@ -6,11 +6,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Gmail clone</title>
     <link rel="stylesheet" href="font-awesome/css/all.min.css">
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="left-tab.css">
-    <link rel="stylesheet" href="middle-tab.css">
-    <link rel="stylesheet" href="right-tab.css">
-    <link rel="stylesheet" href="main-content-emails.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/left-tab.css">
+    <link rel="stylesheet" href="css/middle-tab.css">
+    <link rel="stylesheet" href="css/right-tab.css">
+    <link rel="stylesheet" href="css/main-content-emails.css">
 </head>
 
 <body>
@@ -26,7 +26,8 @@
                     <p>Compose</p>
                 </div>
             </div>
-            <div class="left-lists">
+            <div class="left-overflow">
+            <div class="left-lists">                                                                                                                                              
                 <div class="list-items bg-static">
                     <i class="fa fa-inbox" aria-hidden="true"></i>
                     <p class="inbox-msg">Inbox
@@ -57,18 +58,79 @@
                     <p class="number no-number"></p>
                     </p>
                 </div>
-                <div class="list-items">
+                <div class="list-items toggle-left-drop-down">
                     <i class="fa fa-angle-down" aria-hidden="true"></i>
-                    <p class="inbox-msg">More
+                    <p class="inbox-msg change-inbox-msg">More
                     <p class="number no-number"></p>
                     </p>
                 </div>
+
+            <!-- other listed items are coded here, javascript is used to toggle the display -->
+            <div class="list-items chg-disp1 change-display">
+                <i class="far fa-bookmark rotate-270" aria-hidden="true"></i>
+                <p class="inbox-msg">Important
+                <p class="number no-number"></p>
+                </p>
             </div>
-            <div class="labels">
-                <p>Labels</p>
+            <div class="list-items chg-disp2 change-display">
+                <i class="far fa-comment-alt" aria-hidden="true"></i>
+                <p class="inbox-msg">Chats
+                <p class="number no-number"></p>
+                </p>
+            </div>
+            <div class="list-items chg-disp3 change-display">
+                <i class="far fa-paper-plane" aria-hidden="true">.</i>
+                <p class="inbox-msg">Scheduled
+                <p class="number no-number"></p>
+                </p>
+            </div>
+            <div class="list-items chg-disp4 change-display">
+                <i class="fa fa-mail-bulk" aria-hidden="true"></i>
+                <p class="inbox-msg">All Mail
+                <p class="number no-number"></p>
+                </p>
+            </div>
+            <div class="list-items chg-disp5 change-display">
+                <i class="fa fa-exclamation-circle" aria-hidden="true"></i>
+                <p class="inbox-msg">Spam
+                <p class="number no-number"></p>
+                </p>
+            </div>
+            <div class="list-items chg-disp6 change-display">
+                <i class="fa fa-trash-alt" aria-hidden="true"></i>
+                <p class="inbox-msg">Trash
+                <p class="number no-number"></p>
+                </p>
+            </div>
+            <div class="list-items chg-disp7 change-display">
+                <i class="far fa-bookmark" aria-hidden="true"></i>
+                <p class="inbox-msg">Categories
+                <p class="number no-number"></p>
+                </p>
+            </div>
+            <div class="list-items chg-disp8 change-display">
+                <i class="fa fa-cog" aria-hidden="true"></i>
+                <p class="inbox-msg">Manage labels
+                <p class="number no-number"></p>
+                </p>
+            </div>
+            <div class="list-items chg-disp9 change-display">
                 <i class="fa fa-plus" aria-hidden="true"></i>
+                <p class="inbox-msg">Create new label
+                <p class="number no-number"></p>
+                </p>
             </div>
+
+            <!-- other list items ends above here -->
+
+            </div>
+
         </div>
+        <div class="labels">
+            <p>Labels</p>
+            <i class="fa fa-plus" aria-hidden="true"></i>
+        </div>
+    </div>
 
         <div class="middle-tab">
             <div class="search-tab">
@@ -605,6 +667,6 @@
             </div>
         </div>
     </div>
+    <script src="javascript/main.js"></script>
 </body>
-
 </html>
