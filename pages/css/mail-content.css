@@ -1,0 +1,227 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+i{
+    cursor: pointer;
+}
+body{
+    position: relative;
+    background: rgb(226, 240, 245);
+    height: 100vh;
+}
+.main-content{
+    position: absolute;
+    bottom: 30px;
+    right: 90px;
+    background: white;
+    /* height: 100%; */
+    height: 80vh;
+    width: 70vw;
+}
+.main-mail{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    color: rgb(26, 25, 25);
+}
+.mail-top-sec{
+    width: 100%;
+    height: 40px;
+    /* border: 1px solid gray; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 15px;
+}
+.mail-top-sec-left{
+    width: 300px;
+    /* border: 1px solid gray; */
+    display: flex;
+    align-items: center;
+    height: 100%;
+    justify-content: space-around;
+}
+.mail-top-sec-left span{
+    opacity: .4;
+}
+.mail-top-sec-left i{
+    font-size: 14px;
+    color: rgba(65, 65, 65, 0.897);
+    
+}
+.mail-top-sec-right{
+    display: flex;
+    /* border: 1px solid gray; */
+    width: 150px;
+    justify-content: space-around;
+}
+.mail-top-sec-right span{
+    width: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 15px;
+}
+.mail-top-sec-right p, .mail-top-sec-right span{
+    font-size: 13px;
+    color: gray;
+}
+.middle-mail-content{
+    width: 100%;
+    height: 500px;
+    /* border: 1px solid gray; */
+    display: flex;
+}
+.middle-left{
+    width: 7%;
+    /* border: 1px solid gray; */
+    display: flex;
+    justify-content: center;
+    padding-top: 70px;
+}
+.user-icon{
+    background: #A0C3FF;
+    color: #4374E0;
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    font-size: 24px;
+    overflow-x: hidden;
+}
+.middle-center{
+    width: 68%;
+    display: flex;
+    flex-direction: column;
+    padding-top: 20px;
+    /* border: 1px solid gray; */
+}
+.middle-center-header{
+    font-size: 22px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.mid-center-top{
+    display: flex;
+    align-items: center;
+}
+.mid-center-top span{
+    margin-left: 10px;
+    background: rgb(235, 232, 232);
+    padding: 3px 8px;
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 5px;
+}
+.mid-center-top span i{
+    font-size: 11px;
+    color: rgb(156, 154, 154);
+}
+.mid-user-det{
+    margin-top: 30px;
+}
+.mid-user-det span{
+    font-weight: 600;
+}
+.mid-user-det .span2{
+    font-size: 12px;
+    color: gray;
+    font-weight: lighter;
+}
+.to-me{
+    font-size: 13px;
+    color: gray;
+    margin-top: 6px;
+}
+.general-mid-text{
+    font-size: 13px;
+
+}
+.code{
+    margin-top: 20px;
+}
+.middle-center ul{
+    list-style: none;
+}
+.middle-center li{
+    margin-top: 4px;
+}
+.reply-forward-btns{
+    width: 250px;
+    height: 60px;
+    display: flex;
+    margin-top: 40px;
+    align-items: center;
+    justify-content: space-between;
+}
+.reply-forward-btns button{
+    width: 90px;
+    padding: 4px 5px;
+    outline: none;
+    border: 1px solid black;
+    border-radius: 20px;
+    height: 30px;
+    background: none;
+    color: rgb(114, 114, 114);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.emote-circle{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid black;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+}
+.middle-right{
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+}
+.print-tab{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 30px;
+    justify-content: flex-end;
+    padding-right: 15px;
+}
+.print-tab span{
+    width: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 15px;
+}
+.print-tab span i{
+    color: gray;
+}
+.mail-date-time{
+    font-size: 11px;
+    color: gray;
+}
+.other-options{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 15px;
+    padding-right: 15px;
+}
+.other-options span{
+    width: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.other-options span i{
+    font-size: 14px;
+    color: gray;
+}
